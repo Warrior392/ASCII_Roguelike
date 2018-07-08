@@ -38,7 +38,7 @@ Level::Level(string fileName, Player &player)
 void Level::Print() {
 	cout << string(100, '\n');
 	for (int i = 0; i < _levelData.size(); i++) {
-		printf("%s\n",_levelData[i].c_str());
+		printf("  %s\n",_levelData[i].c_str());
 	}
 	printf("\n");
 }
